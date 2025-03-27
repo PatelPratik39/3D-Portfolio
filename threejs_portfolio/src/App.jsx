@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./sections/navbar";
+import Hero from "./sections/Hero";
 
 const App = () => {
   return (
@@ -7,6 +8,7 @@ const App = () => {
       <h1 className="text-2xl text-white underline">
         {" "}
         <Navbar />
+        <Hero />
       </h1>
     </main>
   );

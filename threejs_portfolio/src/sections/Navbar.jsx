@@ -15,7 +15,7 @@ const NavItems = () => {
           )
         )} */}
 
-        {/* More optimized Apprioach */}
+        {/* More optimized Approach */}
         {navLinks.map(({id, name, href})=> (
             <li key={id} className="nav-li">
                 <a href={href} className="nav-li_a" onClick={() => {}}>
