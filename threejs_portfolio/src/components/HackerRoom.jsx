@@ -6,10 +6,11 @@ Files: hacker-room-new.glb [34.62MB] > /Users/hsuwinlat/Desktop/jsm pj/threejscc
 
 import { useGLTF, useTexture } from "@react-three/drei";
 
+useGLTF.preload("/models/hacker-room.glb");
+
 const HackerRoom = (props) => {
   
   const { nodes, materials } = useGLTF("/models/hacker-room.glb");
-
   const monitortxt = useTexture("textures/desk/monitor.png");
   const screenTxt = useTexture("textures/desk/screen.png");
 
@@ -81,4 +82,4 @@ const HackerRoom = (props) => {
   );
 }
 export default HackerRoom;
-useGLTF.preload("/models/hacker-room.glb");
+

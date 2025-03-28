@@ -1,7 +1,9 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { PerspectiveCamera } from "three";
-import { HackerRoom } from "../components/HackerRoom";
+import { PerspectiveCamera } from "@react-three/drei"; // ✅ from drei, not 'three'
+
+import HackerRoom from "../components/HackerRoom";
+import CanvasLoader from "../components/CanvasLoader";
 
 const Hero = () => {
   return (
@@ -16,15 +18,14 @@ const Hero = () => {
       </div>
       <div className="w-full h-full absolute inset-0">
         <Canvas className="w-full h-full">
-            <Suspense fallback={null}>
-
-            </Suspense>
+          <Suspense fallback={<CanvasLoader />}>
             <PerspectiveCamera makeDefault position={[0, 0, 30]} />
-            <HackerRoom />
+            <HackerRoom /> {/* HackerRoom uses useTexture so this is good */}
+          </Suspense>
         </Canvas>
       </div>
     </section>
   );
-}; 
+};
 
 export default Hero;
