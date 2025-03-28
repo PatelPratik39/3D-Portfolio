@@ -4,6 +4,8 @@
 
 Built with React.js for handling the user interface, Three.js for rendering 3D elements, and styled with TailwindCSS, the 3D Minimalistic portfolio is a website project. The primary goal is to demonstrate the developer's skills in a unique manner that creates a lasting impact.
 
+[!Image](HomePage.png)
+
 # ⚙️ Tech Stack
     - Node.js
     - React.js
@@ -32,3 +34,4 @@ Built with React.js for handling the user interface, Three.js for rendering 3D e
 
 👉 Fully Responsive: Optimized layout ensuring a smooth experience across all devices, from desktop to mobile.
 and many more, including code architecture and reusability
+
