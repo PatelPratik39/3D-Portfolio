@@ -1,11 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/general-sans');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 * {
   scroll-behavior: smooth;
+  text-decoration: none !important;
 }
 
 body {
@@ -31,7 +32,7 @@ body {
   }
 
   .nav-li_a {
-    @apply text-lg md:text-base hover:text-white transition-colors;
+    @apply text-lg md:text-base hover:text-white transition-colors ;
   }
 
   .nav-sidebar {
