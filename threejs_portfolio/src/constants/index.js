@@ -68,103 +68,146 @@ export const clientReviews = [
 
 // export const myProjects = [
 //   {
-//     title: "AI-Powered Chat-With-Document App",
-//     desc: "A SaaS app enabling users to chat with uploaded documents using advanced AI and vector search.",
+//     title: "AI powered SAAS Chat-With-Document Web Application",
+//     role: "Full Stack Developer",
+//     desc: "Built a SaaS application to interact with documents using AI technologies including OpenAI and Langchain.",
 //     subdesc:
-//       "Built with Next.js, OpenAI, Langchain, Pinecone, Firebase, and Clerk. Features include PDF parsing, semantic chunking, and secure authentication.",
-//     href: "https://ai-chat-with-doc.vercel.app/",
-//     texture: "/textures/project/chat-doc.mp4",
-//     logo: "/assets/project-chatdoc.png",
+//       "Stack: NextJS, OpenAI, Langchain, Firebase, Pinecone, Clerk Authentication",
+//     href: "https://your-live-demo-link.com",
+//     texture: "/textures/project/project1.mp4",
+//     logo: "/assets/project-logo1.png",
 //     logoStyle: {
-//       backgroundColor: "#2B2F3A",
+//       backgroundColor: "#1A1A1A",
 //       border: "0.2px solid #333",
-//       boxShadow: "0px 0px 60px 0px #00FFAA33"
+//       boxShadow: "0px 0px 60px 0px #555"
 //     },
 //     spotlight: "/assets/spotlight1.png",
 //     tags: [
-//       { id: 1, name: "Next.js", path: "/assets/next.svg" },
-//       { id: 2, name: "Langchain", path: "/assets/langchain.svg" },
-//       { id: 3, name: "OpenAI", path: "/assets/openai.svg" },
-//       { id: 4, name: "Firebase", path: "/assets/firebase.svg" }
+//       { id: 1, name: "NextJS", path: "/assets/nextjs.png" },
+//       { id: 2, name: "Langchain", path: "/assets/langchain.png" },
+//       { id: 3, name: "Firebase", path: "/assets/firebase.png" }
 //     ]
 //   },
 //   {
 //     title: "Reel Review Full Stack App",
-//     desc: "Movie review platform where users can rate, review, and discover films.",
+//     role: "Full Stack Developer",
+//     desc: "Developed a movie review platform for enthusiasts to share opinions and explore films.",
 //     subdesc:
-//       "Built with React, Node.js, Express, MongoDB, JWT, and Cloudinary. Features include login auth, image uploads, and CRUD-based review system.",
-//     href: "https://reelreviewapp.onrender.com/",
-//     texture: "/textures/project/reelreview.mp4",
-//     logo: "/assets/project-reel.png",
+//       "Stack: JavaScript, ReactJS, Node.js, JWT, Axios, MongoDB, Cloudinary",
+//     href: "https://your-live-demo-link.com",
+//     texture: "/textures/project/project2.mp4",
+//     logo: "/assets/project-logo2.png",
 //     logoStyle: {
-//       backgroundColor: "#1B1C2D",
-//       border: "0.2px solid #444",
-//       boxShadow: "0px 0px 60px 0px #FFD70033"
+//       backgroundColor: "#1A1A1A",
+//       border: "0.2px solid #333",
+//       boxShadow: "0px 0px 60px 0px #555"
 //     },
 //     spotlight: "/assets/spotlight2.png",
 //     tags: [
-//       { id: 1, name: "React.js", path: "/assets/react.svg" },
-//       { id: 2, name: "Node.js", path: "/assets/node.svg" },
-//       { id: 3, name: "MongoDB", path: "/assets/mongo.svg" }
+//       { id: 1, name: "ReactJS", path: "/assets/react.svg" },
+//       { id: 2, name: "Node.js", path: "/assets/nodejs.svg" },
+//       { id: 3, name: "MongoDB", path: "/assets/mongodb.svg" }
 //     ]
 //   },
 //   {
-//     title: "Sports Center Web Application",
-//     desc: "Comprehensive platform to manage sports center data and scheduling.",
-//     subdesc:
-//       "Created using Java Spring Boot (REST API), React, TypeScript, and Docker. Emphasized modular design, secure endpoints, and containerized environments.",
-//     href: "https://github.com/PatelPratik39/SportCenterApp_SpringBoot_React",
-//     texture: "/textures/project/sports.mp4",
-//     logo: "/assets/project-sports.png",
+//     title: "Sports-center Web Application",
+//     role: "Full Stack Developer",
+//     desc: "Developed a sports center platform to manage events and participation.",
+//     subdesc: "Stack: Java Spring Boot, React, TypeScript, Docker",
+//     href: "https://github.com/your-sports-center-repo",
+//     texture: "/textures/project/project3.mp4",
+//     logo: "/assets/project-logo3.png",
 //     logoStyle: {
-//       backgroundColor: "#223344",
-//       border: "0.2px solid #335566",
-//       boxShadow: "0px 0px 60px 0px #0099FF33"
+//       backgroundColor: "#1A1A1A",
+//       border: "0.2px solid #333",
+//       boxShadow: "0px 0px 60px 0px #555"
 //     },
 //     spotlight: "/assets/spotlight3.png",
 //     tags: [
-//       { id: 1, name: "React.js", path: "/assets/react.svg" },
-//       { id: 2, name: "Spring Boot", path: "/assets/spring.svg" },
+//       { id: 1, name: "Spring Boot", path: "/assets/springboot.svg" },
+//       { id: 2, name: "React", path: "/assets/react.svg" },
 //       { id: 3, name: "Docker", path: "/assets/docker.svg" }
 //     ]
 //   },
 //   {
-//     title: "E-Commerce Microservices App",
-//     desc: "Microservices-based backend for managing products, users, orders, and analytics.",
-//     subdesc:
-//       "Developed with Java 21, Spring Boot, Kafka, MongoDB, PostgreSQL, Docker, and Spring Cloud. Includes Zipkin tracing and event-driven design.",
-//     href: "https://github.com/PatelPratik39/E-Commerce_Microservices_SpringBoot",
-//     texture: "/textures/project/ecommerce.mp4",
-//     logo: "/assets/project-ecom.png",
+//     title: "E-Commerce App",
+//     role: "Full Stack Developer",
+//     desc: "Built an e-commerce platform with integrated analytics.",
+//     subdesc: "Stack: MERN (MongoDB, Express, React, Node.js)",
+//     href: "https://your-live-demo-link.com",
+//     texture: "/textures/project/project4.mp4",
+//     logo: "/assets/project-logo4.png",
 //     logoStyle: {
-//       backgroundColor: "#111111",
+//       backgroundColor: "#1A1A1A",
 //       border: "0.2px solid #333",
-//       boxShadow: "0px 0px 60px 0px #FF573333"
+//       boxShadow: "0px 0px 60px 0px #555"
 //     },
 //     spotlight: "/assets/spotlight4.png",
 //     tags: [
-//       { id: 1, name: "Spring Boot", path: "/assets/spring.svg" },
+//       { id: 1, name: "React", path: "/assets/react.svg" },
+//       { id: 2, name: "MongoDB", path: "/assets/mongodb.svg" },
+//       { id: 3, name: "JavaScript", path: "/assets/javascript.svg" }
+//     ]
+//   },
+//   {
+//     title: "AI Chatbot using RAG",
+//     role: "Full Stack Developer",
+//     desc: "Built an AI-powered chatbot to retrieve answers from uploaded documents.",
+//     subdesc: "Stack: NextJS, TypeScript, OpenAI, Pinecone",
+//     href: "https://github.com/your-ai-chatbot-repo",
+//     texture: "/textures/project/project5.mp4",
+//     logo: "/assets/project-logo5.png",
+//     logoStyle: {
+//       backgroundColor: "#1A1A1A",
+//       border: "0.2px solid #333",
+//       boxShadow: "0px 0px 60px 0px #555"
+//     },
+//     spotlight: "/assets/spotlight5.png",
+//     tags: [
+//       { id: 1, name: "NextJS", path: "/assets/nextjs.png" },
+//       { id: 2, name: "OpenAI", path: "/assets/openai.svg" },
+//       { id: 3, name: "Pinecone", path: "/assets/pinecone.png" }
+//     ]
+//   },
+//   {
+//     title: "E-commerce Microservices Backend App",
+//     role: "Backend Developer",
+//     desc: "Built a scalable backend architecture for an e-commerce app using microservices.",
+//     subdesc:
+//       "Stack: Java21, Spring Boot, Docker, MongoDB, PostgreSQL, Kafka, Zipkin, Spring Cloud",
+//     href: "https://github.com/your-microservice-ecommerce",
+//     texture: "/textures/project/project6.mp4",
+//     logo: "/assets/project-logo6.png",
+//     logoStyle: {
+//       backgroundColor: "#1A1A1A",
+//       border: "0.2px solid #333",
+//       boxShadow: "0px 0px 60px 0px #555"
+//     },
+//     spotlight: "/assets/spotlight6.png",
+//     tags: [
+//       { id: 1, name: "Spring Boot", path: "/assets/springboot.svg" },
 //       { id: 2, name: "Kafka", path: "/assets/kafka.svg" },
 //       { id: 3, name: "Docker", path: "/assets/docker.svg" }
 //     ]
 //   },
 //   {
-//     title: "Tinder Full Stack App with AI",
-//     desc: "Tinder-like app powered by AI and a full stack architecture.",
+//     title: "Tinder Full Stack App",
+//     role: "Full Stack Developer",
+//     desc: "Built a full stack dating application with AI features for match suggestions.",
 //     subdesc:
-//       "Built with Java 17, Spring Boot, MySQL, React, OpenAI, and Docker. AI integration for smart profile matching and chat-based suggestions.",
-//     href: "https://github.com/PatelPratik39/TinderApp_AI",
-//     texture: "/textures/project/tinder.mp4",
-//     logo: "/assets/project-tinder.png",
+//       "Stack: Java17, Spring Boot, MySQL, React, OpenAI, Ollama, JavaScript",
+//     href: "https://github.com/your-tinder-app",
+//     texture: "/textures/project/project7.mp4",
+//     logo: "/assets/project-logo7.png",
 //     logoStyle: {
-//       backgroundColor: "#330F13",
-//       border: "0.2px solid #AA2233",
-//       boxShadow: "0px 0px 60px 0px #FF336633"
+//       backgroundColor: "#1A1A1A",
+//       border: "0.2px solid #333",
+//       boxShadow: "0px 0px 60px 0px #555"
 //     },
-//     spotlight: "/assets/spotlight5.png",
+//     spotlight: "/assets/spotlight7.png",
 //     tags: [
-//       { id: 1, name: "React.js", path: "/assets/react.svg" },
-//       { id: 2, name: "Spring Boot", path: "/assets/spring.svg" },
+//       { id: 1, name: "Spring Boot", path: "/assets/springboot.svg" },
+//       { id: 2, name: "React", path: "/assets/react.svg" },
 //       { id: 3, name: "OpenAI", path: "/assets/openai.svg" }
 //     ]
 //   }
@@ -173,193 +216,352 @@ export const clientReviews = [
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+    title: "AI-Powered Chat-With-Document App",
+    desc: "A SaaS app enabling users to chat with uploaded documents using advanced AI and vector search.",
     subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+      "Built with Next.js, OpenAI, Langchain, Pinecone, Firebase, and Clerk. Features include PDF parsing, semantic chunking, and secure authentication.",
+    href: "https://ai-chat-with-doc.vercel.app/",
+    github: "https://github.com/PatelPratik39/AI_Chat_with_Document",
     texture: "/textures/project/project1.mp4",
-    logo: "/assets/project-logo1.png",
+    logo: "/assets/ChatWithDocs.png",
     logoStyle: {
-      backgroundColor: "#2A1816",
-      border: "0.2px solid #36201D",
-      boxShadow: "0px 0px 60px 0px #AA3C304D"
+      backgroundColor: "#2B2F3A",
+      border: "0.2px solid #333",
+      boxShadow: "0px 0px 60px 0px #00FFAA33"
     },
     spotlight: "/assets/spotlight1.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg"
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png"
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png"
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png"
-      }
+      { id: 1, name: "Next.js", path: "/assets/nextjs.svg" },
+      { id: 2, name: "Langchain", path: "/assets/langchain.png" },
+      { id: 3, name: "OpenAI", path: "/assets/openai.svg" },
+      { id: 4, name: "Firebase", path: "/assets/firebase.svg" }
     ]
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+    title: "Reel Review Full Stack App",
+    desc: "Movie review platform where users can rate, review, and discover films.",
     subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+      "Built with React, Node.js, Express, MongoDB, JWT, and Cloudinary. Features include login auth, image uploads, and CRUD-based review system.",
+    href: "https://reelreviewapp.onrender.com/",
+    github: "https://github.com/PatelPratik39/ReelReviewApp",
     texture: "/textures/project/project2.mp4",
-    logo: "/assets/project-logo2.png",
+    logo: "/assets/ReelReview.png",
     logoStyle: {
-      backgroundColor: "#13202F",
-      border: "0.2px solid #17293E",
-      boxShadow: "0px 0px 60px 0px #2F6DB54D"
+      backgroundColor: "#1B1C2D",
+      border: "0.2px solid #444",
+      boxShadow: "0px 0px 60px 0px #FFD70033"
     },
     spotlight: "/assets/spotlight2.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg"
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png"
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png"
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png"
-      }
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "Node.js", path: "/assets/nodejs.png" },
+      { id: 3, name: "MongoDB", path: "/assets/mongodb.png" }
     ]
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+    title: "AI Content Generato",
+    desc: "An intelligent chatbot that generates content using RAG architecture.",
     subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+      "Built with NextJS, TypeScript, OpenAI, and Pinecone for semantic search and AI-driven conversation.",
+    href: "https://github.com/PatelPratik39/AI-Content-Generator_Full-Stack",
+    github: "https://github.com/PatelPratik39/AI-Content-Generator_Full-Stack",
     texture: "/textures/project/project3.mp4",
-    logo: "/assets/project-logo3.png",
+    logo: "/assets/AiContent.png",
     logoStyle: {
-      backgroundColor: "#60f5a1",
-      background:
-        "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
-      border: "0.2px solid rgba(208, 213, 221, 1)",
-      boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)"
+      backgroundColor: "#20293A",
+      border: "0.2px solid #2E3C5C",
+      boxShadow: "0px 0px 60px 0px #00D8FF33"
+    },
+    spotlight: "/assets/spotlight6.png",
+    tags: [
+      { id: 1, name: "NextJS", path: "/assets/nextjs.svg" },
+      { id: 2, name: "TypeScript", path: "/assets/typescript.png" },
+      { id: 3, name: "OpenAI", path: "/assets/openai.svg" },
+      { id: 4, name: "Pinecone", path: "/assets/pinecone.png" },
+      { id: 5, name: "Postgresql", path: "/assets/pg.png" }
+    ]
+  },
+  {
+    title: "E-Commerce App",
+    desc: "An online shopping platform featuring product browsing, cart, payment gateway, and analytics dashboard.",
+    subdesc:
+      "Built with MERN stack (MongoDB, Express, React, Node.js) and includes analytics tools for tracking performance.",
+    href: "https://ecommerce-mern-analytics.vercel.app/",
+    github: "https://github.com/PatelPratik39/Ecommerce_Analytics_MERN_App",
+    texture: "/textures/project/project4.mp4",
+    logo: "/assets/EcomerceFull.png",
+    logoStyle: {
+      backgroundColor: "#1E1E1E",
+      border: "0.2px solid #333",
+      boxShadow: "0px 0px 60px 0px #44FF4433"
+    },
+    spotlight: "/assets/spotlight7.png",
+    tags: [
+      { id: 1, name: "React", path: "/assets/react.svg" },
+      { id: 2, name: "MongoDB", path: "/assets/mongodb.png" },
+      { id: 3, name: "JavaScript", path: "/assets/js.png" },
+      { id: 4, name: "Node.js", path: "/assets/nodejs.png" }
+    ]
+  },
+  {
+    title: "Sports Center Web Application",
+    desc: "Comprehensive platform to manage sports center data and scheduling.",
+    subdesc:
+      "Created using Java Spring Boot (REST API), React, TypeScript, and Docker. Emphasized modular design, secure endpoints, and containerized environments.",
+    href: "https://github.com/PatelPratik39/SportCenterApp_SpringBoot_React",
+    github: "https://github.com/PatelPratik39/SportCenterApp_SpringBoot_React",
+    texture: "/textures/project/project1.mp4",
+    logo: "/assets/SportsCenter.png",
+    logoStyle: {
+      backgroundColor: "#223344",
+      border: "0.2px solid #335566",
+      boxShadow: "0px 0px 60px 0px #0099FF33"
     },
     spotlight: "/assets/spotlight3.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg"
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png"
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png"
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png"
-      }
+      { id: 1, name: "React.js", path: "/assets/react.svg" },
+      { id: 2, name: "Spring Boot", path: "/assets/springboot.svg" },
+      { id: 3, name: "Docker", path: "/assets/docker.png" },
+      { id: 4, name: "Java", path: "/assets/java.png" }
     ]
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+    title: "E-Commerce Microservices App",
+    desc: "Microservices-based backend for managing products, users, orders, and analytics.",
     subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
-    texture: "/textures/project/project4.mp4",
-    logo: "/assets/project-logo4.png",
+      "Developed with Java 21, Spring Boot, Kafka, MongoDB, PostgreSQL, Docker, and Spring Cloud. Includes Zipkin tracing and event-driven design.",
+    href: "https://github.com/PatelPratik39/E-Commerce_Microservices_SpringBoot",
+    github:
+      "https://github.com/PatelPratik39/E-Commerce_Microservices_SpringBoot",
+    texture: "/textures/project/project3.mp4",
+    logo: "/assets/EcommerceMicro.png",
     logoStyle: {
-      backgroundColor: "#0E1F38",
-      border: "0.2px solid #0E2D58",
-      boxShadow: "0px 0px 60px 0px #2F67B64D"
+      backgroundColor: "#111111",
+      border: "0.2px solid #333",
+      boxShadow: "0px 0px 60px 0px #FF573333"
     },
     spotlight: "/assets/spotlight4.png",
     tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg"
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png"
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png"
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png"
-      }
+      { id: 1, name: "Spring Boot", path: "/assets/springboot.svg" },
+      { id: 2, name: "Kafka", path: "/assets/kafka1.svg" },
+      { id: 3, name: "Docker", path: "/assets/docker.png" },
+      { id: 4, name: "Java", path: "/assets/java.png" }
     ]
   },
-  {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
-    subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
-    texture: "/textures/project/project5.mp4",
-    logo: "/assets/project-logo5.png",
-    logoStyle: {
-      backgroundColor: "#1C1A43",
-      border: "0.2px solid #252262",
-      boxShadow: "0px 0px 60px 0px #635BFF4D"
-    },
-    spotlight: "/assets/spotlight5.png",
-    tags: [
-      {
-        id: 1,
-        name: "React.js",
-        path: "/assets/react.svg"
-      },
-      {
-        id: 2,
-        name: "TailwindCSS",
-        path: "assets/tailwindcss.png"
-      },
-      {
-        id: 3,
-        name: "TypeScript",
-        path: "/assets/typescript.png"
-      },
-      {
-        id: 4,
-        name: "Framer Motion",
-        path: "/assets/framer.png"
-      }
-    ]
-  }
+  // {
+  //   title: "Tinder Full Stack App with AI",
+  //   desc: "Tinder-like app powered by AI and a full stack architecture.",
+  //   subdesc:
+  //     "Built with Java 17, Spring Boot, MySQL, React, OpenAI, and Docker. AI integration for smart profile matching and chat-based suggestions.",
+  //   href: "https://github.com/PatelPratik39/TinderApp_AI",
+  //   github: "https://github.com/PatelPratik39/TinderApp_AI",
+  //   ttexture: "/textures/project/project2.mp4",
+  //   logo: "/assets/project-tinder.png",
+  //   logoStyle: {
+  //     backgroundColor: "#330F13",
+  //     border: "0.2px solid #AA2233",
+  //     boxShadow: "0px 0px 60px 0px #FF336633"
+  //   },
+  //   spotlight: "/assets/spotlight5.png",
+  //   tags: [
+  //     { id: 1, name: "React.js", path: "/assets/react.svg" },
+  //     { id: 2, name: "Spring Boot", path: "/assets/spring.svg" },
+  //     { id: 3, name: "OpenAI", path: "/assets/openai.svg" }
+  //   ]
+  // }
 ];
+
+
+
+// export const myProjects = [
+//   {
+//     title: "Podcastr - AI Podcast Platform",
+//     desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
+//     subdesc:
+//       "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
+//     href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+//     texture: "/textures/project/project1.mp4",
+//     logo: "/assets/project-logo1.png",
+//     logoStyle: {
+//       backgroundColor: "#2A1816",
+//       border: "0.2px solid #36201D",
+//       boxShadow: "0px 0px 60px 0px #AA3C304D"
+//     },
+//     spotlight: "/assets/spotlight1.png",
+//     tags: [
+//       {
+//         id: 1,
+//         name: "React.js",
+//         path: "/assets/react.svg"
+//       },
+//       {
+//         id: 2,
+//         name: "TailwindCSS",
+//         path: "assets/tailwindcss.png"
+//       },
+//       {
+//         id: 3,
+//         name: "TypeScript",
+//         path: "/assets/typescript.png"
+//       },
+//       {
+//         id: 4,
+//         name: "Framer Motion",
+//         path: "/assets/framer.png"
+//       }
+//     ]
+//   },
+//   {
+//     title: "LiveDoc - Real-Time Google Docs Clone",
+//     desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
+//     subdesc:
+//       "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
+//     href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+//     texture: "/textures/project/project2.mp4",
+//     logo: "/assets/project-logo2.png",
+//     logoStyle: {
+//       backgroundColor: "#13202F",
+//       border: "0.2px solid #17293E",
+//       boxShadow: "0px 0px 60px 0px #2F6DB54D"
+//     },
+//     spotlight: "/assets/spotlight2.png",
+//     tags: [
+//       {
+//         id: 1,
+//         name: "React.js",
+//         path: "/assets/react.svg"
+//       },
+//       {
+//         id: 2,
+//         name: "TailwindCSS",
+//         path: "assets/tailwindcss.png"
+//       },
+//       {
+//         id: 3,
+//         name: "TypeScript",
+//         path: "/assets/typescript.png"
+//       },
+//       {
+//         id: 4,
+//         name: "Framer Motion",
+//         path: "/assets/framer.png"
+//       }
+//     ]
+//   },
+//   {
+//     title: "CarePulse - Health Management System",
+//     desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
+//     subdesc:
+//       "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
+//     href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+//     texture: "/textures/project/project3.mp4",
+//     logo: "/assets/project-logo3.png",
+//     logoStyle: {
+//       backgroundColor: "#60f5a1",
+//       background:
+//         "linear-gradient(0deg, #60F5A150, #60F5A150), linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(208, 213, 221, 0.8) 100%)",
+//       border: "0.2px solid rgba(208, 213, 221, 1)",
+//       boxShadow: "0px 0px 60px 0px rgba(35, 131, 96, 0.3)"
+//     },
+//     spotlight: "/assets/spotlight3.png",
+//     tags: [
+//       {
+//         id: 1,
+//         name: "React.js",
+//         path: "/assets/react.svg"
+//       },
+//       {
+//         id: 2,
+//         name: "TailwindCSS",
+//         path: "assets/tailwindcss.png"
+//       },
+//       {
+//         id: 3,
+//         name: "TypeScript",
+//         path: "/assets/typescript.png"
+//       },
+//       {
+//         id: 4,
+//         name: "Framer Motion",
+//         path: "/assets/framer.png"
+//       }
+//     ]
+//   },
+//   {
+//     title: "Horizon - Online Banking Platform",
+//     desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
+//     subdesc:
+//       "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
+//     href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+//     texture: "/textures/project/project4.mp4",
+//     logo: "/assets/project-logo4.png",
+//     logoStyle: {
+//       backgroundColor: "#0E1F38",
+//       border: "0.2px solid #0E2D58",
+//       boxShadow: "0px 0px 60px 0px #2F67B64D"
+//     },
+//     spotlight: "/assets/spotlight4.png",
+//     tags: [
+//       {
+//         id: 1,
+//         name: "React.js",
+//         path: "/assets/react.svg"
+//       },
+//       {
+//         id: 2,
+//         name: "TailwindCSS",
+//         path: "assets/tailwindcss.png"
+//       },
+//       {
+//         id: 3,
+//         name: "TypeScript",
+//         path: "/assets/typescript.png"
+//       },
+//       {
+//         id: 4,
+//         name: "Framer Motion",
+//         path: "/assets/framer.png"
+//       }
+//     ]
+//   },
+//   {
+//     title: "Imaginify - AI Photo Manipulation App",
+//     desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
+//     subdesc:
+//       "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
+//     href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+//     texture: "/textures/project/project5.mp4",
+//     logo: "/assets/project-logo5.png",
+//     logoStyle: {
+//       backgroundColor: "#1C1A43",
+//       border: "0.2px solid #252262",
+//       boxShadow: "0px 0px 60px 0px #635BFF4D"
+//     },
+//     spotlight: "/assets/spotlight5.png",
+//     tags: [
+//       {
+//         id: 1,
+//         name: "React.js",
+//         path: "/assets/react.svg"
+//       },
+//       {
+//         id: 2,
+//         name: "TailwindCSS",
+//         path: "assets/tailwindcss.png"
+//       },
+//       {
+//         id: 3,
+//         name: "TypeScript",
+//         path: "/assets/typescript.png"
+//       },
+//       {
+//         id: 4,
+//         name: "Framer Motion",
+//         path: "/assets/framer.png"
+//       }
+//     ]
+//   }
+// ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
   return {
