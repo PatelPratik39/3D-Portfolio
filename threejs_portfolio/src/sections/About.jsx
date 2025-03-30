@@ -31,7 +31,7 @@ const About = () => {
               <p className="grid-subtext">
                 With 4+ years of experience, I have honed my skills in both
                 frontend and backend development, creating dynamic and responsive
-                Full Stack applications.
+                Full Stack applications using Java and JavaScript.
               </p>
             </div>
           </div>

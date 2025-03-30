@@ -16,6 +16,16 @@ export const navLinks = [
   },
   {
     id: 4,
+    name: "Education",
+    href: "#education"
+  },
+  {
+    id: 5,
+    name: "Certificates",
+    href: "#certificates"
+  },
+  {
+    id: 6,
     name: "Contact",
     href: "#contact"
   }
@@ -389,32 +399,32 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
 export const workExperiences = [
   {
     id: 1,
-    name: "Aneri Patel",
+    name: "Infosys",
     pos: "Technology Analyst",
-    duration: "2021 - Present",
+    duration: "March 2021 - August 2024",
     title:
-      "Aneri serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-    icon: "/assets/figma.svg",
+      "Contributed to enterprise-grade applications using Java, Spring Boot, and React one of the largest clients of Infosys. Implemented full-stack Application, integrated AWS services, and ensured smooth CI/CD delivery with Docker and Jenkins. Recognized with 'Best Collaborator (2023)' award.",
+    icon: "/assets/infosys.svg",
     animation: "victory"
   },
   {
     id: 2,
-    name: "Wuttikrai (Golf) Chainan",
-    pos: "QA Automation Engineer",
-    duration: "2022 - 2025",
+    name: "American Express (Infosys)",
+    pos: "Software Engineer III",
+    duration: "Sepember 2021 - April 2024",
     title:
-      "Golf (Wuttikrai) is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-    icon: "/assets/framer.svg",
+      "Developed scalable microservices and full stack features uing Java, Spring Boot, and React for Amex Global Marchant Service Portal. Improved backend performance by 30% and contributed to QA, deployment, and UAT processes. Received the 'Domain Maestro (2023)' award.",
+    icon: "/assets/americanExpress.svg",
     animation: "clapping"
   },
   {
     id: 3,
-    name: "Imran Pasha",
-    pos: "Software Engineer",
-    duration: "2022 - present",
+    name: "Sears Holdings Corporation",
+    pos: "Java Software Developer",
+    duration: "Septmber 2020 - March 2021",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-    icon: "/assets/notion.svg",
+      "Developed scalable backend services using Java, Spring Boot, and MySQL. Improved application performance by 20% through Hibernate optimizations and advanced SQL. Created RESTful APIs, CI/CD pipelines with Jenkins, and contributed to system architecture and backend integration.",
+    icon: "/assets/sears1.svg",
     animation: "salute"
   }
 ];
@@ -450,7 +460,7 @@ export const educationData = [
     degree: "Master’s in Computer Science",
     duration: "2022 – 2024",
     desc: "Specialized in software engineering, cloud technologies, and AI. Completed hands-on projects in full stack development and system design.",
-    icon: "/assets/education.svg",
+    icon: "/assets/education.png",
     animation: "salute"
   },
   {
@@ -459,7 +469,7 @@ export const educationData = [
     degree: "Bachelor’s in Computer Science (Software Development)",
     duration: "2016 – 2020",
     desc: "Focused on algorithms, software architecture, and application development. Built academic projects using Java, Spring, and MySQL.",
-    icon: "/assets/education.svg",
+    icon: "/assets/education.png",
     animation: "waving"
   },
   {
@@ -468,7 +478,7 @@ export const educationData = [
     degree: "Associate's in Computer Science",
     duration: "2015 – 2018",
     desc: "Built a strong foundation in programming, algorithms, and object-oriented design. Completed hands-on coursework in Java, data structures, and web development, preparing for a transition into advanced software engineering studies.",
-    icon: "/assets/education.svg",
+    icon: "/assets/education.png",
     animation: "waving"
   },
   {
@@ -477,7 +487,7 @@ export const educationData = [
     degree: "Diploma in Electronics and Communication Engineering",
     duration: "2009 – 2013",
     desc: "Studied core electronics, signal processing, and embedded systems. Gained early exposure to digital systems and engineering logic, forming the technical base for a career in computer science and software development.",
-    icon: "/assets/education.svg",
+    icon: "/assets/education.png",
     animation: "waving"
   }
 ];
@@ -488,34 +498,39 @@ export const certificationsData = [
     name: "Generative AI Specialization",
     org: "Purdue University",
     date: "March 2025",
-    icon: "/assets/ai.svg"
+    icon: "/assets/certificate.png",
+    link: "https://success.simplilearn.com/48dcd6be-7afb-4ad0-ae5e-56184ce52b7e#acc.Q23wUfPi"
   },
   {
     id: 2,
     name: "AWS AI Practitioner",
     org: "Amazon",
     date: "January 2025",
-    icon: "/assets/aws.svg"
+    icon: "/assets/certificate.png",
+    link: "https://www.credly.com/badges/72623477-3260-412f-b275-dc1cef5f4a56/linked_in_profile"
   },
   {
     id: 3,
     name: "AWS Cloud Practitioner",
     org: "Amazon",
     date: "March 2023",
-    icon: "/assets/aws.svg"
+    icon: "/assets/certificate.png",
+    link: "https://www.credly.com/badges/520191ce-0ef5-41e1-9148-49328259daf0/linked_in_profile"
   },
   {
     id: 4,
-    name: "Full Stack Web Dev Bootcamp",
+    name: "Full Stack Web Development Bootcamp",
     org: "University of Illinois at Chicago (UIC)",
     date: "May 2022",
-    icon: "/assets/uic.svg"
+    icon: "/assets/certificate.png",
+    link: "https://www.linkedin.com/in/pratikpatel6/details/certifications/1718559849289/single-media-viewer/?profileId=ACoAACk8UxsBzZTUBWQS0UnoVJeVZuHQO92gRcQ"
   },
   {
     id: 5,
     name: "Full Stack Java Developer Bootcamp",
     org: "SimpliLearn",
     date: "August 2020",
-    icon: "/assets/java.svg"
+    icon: "/assets/certificate.png",
+    link: "https://success.simplilearn.com/117594668"
   }
 ];
