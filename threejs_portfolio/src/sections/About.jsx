@@ -27,11 +27,11 @@ const About = () => {
             />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Adrian Hajdin</p>
+              <p className="grid-headtext">Hi, I’m Pratik Patel</p>
               <p className="grid-subtext">
-                With 12 years of experience, I have honed my skills in both
-                frontend and backend dev, creating dynamic and responsive
-                websites.
+                With 4+ years of experience, I have honed my skills in both
+                frontend and backend development, creating dynamic and responsive
+                Full Stack applications.
               </p>
             </div>
           </div>
@@ -48,8 +48,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools
-                that allow me to build robust and scalable applications
+                I specialize in a variety of languages like Java, Javascript / TypeScript, Python, frameworks like Spring Boot, NextJs Angular, and tools
+                that allow me to build robust and scalable web applications.
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">
-                I’m very flexible with time zone communications & locations
+                I’m very flexible with timezone communications & locations
               </p>
               <p className="grid-subtext">
                 I&apos;m based in Chicago, IL and open to remote work

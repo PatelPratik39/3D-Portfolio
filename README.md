@@ -6,7 +6,8 @@ Built with React.js for handling the user interface, Three.js for rendering 3D e
 
 ![Homepage Screenshot](./HomePage.png)
 ![About Screenshot](./AboutPage.png)
-
+![Project Screenshot](./ProjectPage.png)
+![Review Screenshot](./ReviewPage.png)
 
 # ⚙️ Tech Stack
     - Node.js

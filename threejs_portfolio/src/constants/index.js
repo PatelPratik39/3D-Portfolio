@@ -24,37 +24,142 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
-    img: "assets/review1.png",
+    name: "Aneri Patel",
+    position: "Technology Analyst",
+    img: "assets/woman.png",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects."
+      "I had the pleasure of working with Pratik on the Infosys. I was impressed with Pratik's technical skills. He's a highly skilled Full Stack Developer with strong expertise in React, Node.js, and AWS. Pratik consistently delivered high-quality solutions, solved complex problems efficiently, and was a great team player who supported junior developers. I highly recommend him for any team seeking a reliable and talented full stack engineer."
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
-    img: "assets/review2.png",
+    name: "Golf Wauttikrai Chainan",
+    position: "Quality Assurance Engineer",
+    img: "assets/avatar.png",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work."
+      "I’ve had the pleasure of working with Pratik for almost three years, and he’s an incredible full-stack developer, especially with React and Java Spring Boot. He delivers clean, scalable solutions, tackles challenges head-on, and is always willing to share his knowledge. On top of that, he’s a fantastic teammate who brings great energy to any team. If you’re looking for a top-notch developer, please hook him up—you won’t regret it!"
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
-    img: "assets/review3.png",
+    name: "Imraan Pasha ",
+    position: "Software Engineer",
+    img: "assets/avatar.png",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding."
+      "I highly recommend Pratik, a React Developer at Infosys. He delivers high-quality solutions with great technical skills and teamwork. His problem-solving and positive attitude make him a valuable asset to any team."
   },
   {
     id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
-    img: "assets/review4.png",
+    name: "RanghuNathan Sarvapalli",
+    position: "Senior Software Engineer",
+    img: "assets/avatar.png",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch."
+      "Pratik was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch."
   }
 ];
+
+// export const myProjects = [
+//   {
+//     title: "AI-Powered Chat-With-Document App",
+//     desc: "A SaaS app enabling users to chat with uploaded documents using advanced AI and vector search.",
+//     subdesc:
+//       "Built with Next.js, OpenAI, Langchain, Pinecone, Firebase, and Clerk. Features include PDF parsing, semantic chunking, and secure authentication.",
+//     href: "https://ai-chat-with-doc.vercel.app/",
+//     texture: "/textures/project/chat-doc.mp4",
+//     logo: "/assets/project-chatdoc.png",
+//     logoStyle: {
+//       backgroundColor: "#2B2F3A",
+//       border: "0.2px solid #333",
+//       boxShadow: "0px 0px 60px 0px #00FFAA33"
+//     },
+//     spotlight: "/assets/spotlight1.png",
+//     tags: [
+//       { id: 1, name: "Next.js", path: "/assets/next.svg" },
+//       { id: 2, name: "Langchain", path: "/assets/langchain.svg" },
+//       { id: 3, name: "OpenAI", path: "/assets/openai.svg" },
+//       { id: 4, name: "Firebase", path: "/assets/firebase.svg" }
+//     ]
+//   },
+//   {
+//     title: "Reel Review Full Stack App",
+//     desc: "Movie review platform where users can rate, review, and discover films.",
+//     subdesc:
+//       "Built with React, Node.js, Express, MongoDB, JWT, and Cloudinary. Features include login auth, image uploads, and CRUD-based review system.",
+//     href: "https://reelreviewapp.onrender.com/",
+//     texture: "/textures/project/reelreview.mp4",
+//     logo: "/assets/project-reel.png",
+//     logoStyle: {
+//       backgroundColor: "#1B1C2D",
+//       border: "0.2px solid #444",
+//       boxShadow: "0px 0px 60px 0px #FFD70033"
+//     },
+//     spotlight: "/assets/spotlight2.png",
+//     tags: [
+//       { id: 1, name: "React.js", path: "/assets/react.svg" },
+//       { id: 2, name: "Node.js", path: "/assets/node.svg" },
+//       { id: 3, name: "MongoDB", path: "/assets/mongo.svg" }
+//     ]
+//   },
+//   {
+//     title: "Sports Center Web Application",
+//     desc: "Comprehensive platform to manage sports center data and scheduling.",
+//     subdesc:
+//       "Created using Java Spring Boot (REST API), React, TypeScript, and Docker. Emphasized modular design, secure endpoints, and containerized environments.",
+//     href: "https://github.com/PatelPratik39/SportCenterApp_SpringBoot_React",
+//     texture: "/textures/project/sports.mp4",
+//     logo: "/assets/project-sports.png",
+//     logoStyle: {
+//       backgroundColor: "#223344",
+//       border: "0.2px solid #335566",
+//       boxShadow: "0px 0px 60px 0px #0099FF33"
+//     },
+//     spotlight: "/assets/spotlight3.png",
+//     tags: [
+//       { id: 1, name: "React.js", path: "/assets/react.svg" },
+//       { id: 2, name: "Spring Boot", path: "/assets/spring.svg" },
+//       { id: 3, name: "Docker", path: "/assets/docker.svg" }
+//     ]
+//   },
+//   {
+//     title: "E-Commerce Microservices App",
+//     desc: "Microservices-based backend for managing products, users, orders, and analytics.",
+//     subdesc:
+//       "Developed with Java 21, Spring Boot, Kafka, MongoDB, PostgreSQL, Docker, and Spring Cloud. Includes Zipkin tracing and event-driven design.",
+//     href: "https://github.com/PatelPratik39/E-Commerce_Microservices_SpringBoot",
+//     texture: "/textures/project/ecommerce.mp4",
+//     logo: "/assets/project-ecom.png",
+//     logoStyle: {
+//       backgroundColor: "#111111",
+//       border: "0.2px solid #333",
+//       boxShadow: "0px 0px 60px 0px #FF573333"
+//     },
+//     spotlight: "/assets/spotlight4.png",
+//     tags: [
+//       { id: 1, name: "Spring Boot", path: "/assets/spring.svg" },
+//       { id: 2, name: "Kafka", path: "/assets/kafka.svg" },
+//       { id: 3, name: "Docker", path: "/assets/docker.svg" }
+//     ]
+//   },
+//   {
+//     title: "Tinder Full Stack App with AI",
+//     desc: "Tinder-like app powered by AI and a full stack architecture.",
+//     subdesc:
+//       "Built with Java 17, Spring Boot, MySQL, React, OpenAI, and Docker. AI integration for smart profile matching and chat-based suggestions.",
+//     href: "https://github.com/PatelPratik39/TinderApp_AI",
+//     texture: "/textures/project/tinder.mp4",
+//     logo: "/assets/project-tinder.png",
+//     logoStyle: {
+//       backgroundColor: "#330F13",
+//       border: "0.2px solid #AA2233",
+//       boxShadow: "0px 0px 60px 0px #FF336633"
+//     },
+//     spotlight: "/assets/spotlight5.png",
+//     tags: [
+//       { id: 1, name: "React.js", path: "/assets/react.svg" },
+//       { id: 2, name: "Spring Boot", path: "/assets/spring.svg" },
+//       { id: 3, name: "OpenAI", path: "/assets/openai.svg" }
+//     ]
+//   }
+// ];
+
 
 export const myProjects = [
   {
@@ -311,5 +416,106 @@ export const workExperiences = [
       "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
     icon: "/assets/notion.svg",
     animation: "salute"
+  }
+];
+
+
+// export const workExperiences = [
+//   {
+//     id: 1,
+//     name: "Infosys (Client: American Express)",
+//     pos: "Technology Analyst",
+//     duration: "Mar 2021 – Aug 2024",
+//     title:
+//       "Built and deployed full stack applications using Java Spring Boot, ReactJS, and AWS. Designed scalable REST APIs, optimized frontend performance, and led CI/CD with Docker and Jenkins. Received 'Best Collaborator' and 'Domain Maestro' awards.",
+//     icon: "/assets/aws.svg",
+//     animation: "victory"
+//   },
+//   {
+//     id: 2,
+//     name: "Sears Holdings Corporation",
+//     pos: "Java Software Developer",
+//     duration: "Sep 2020 – Mar 2021",
+//     title:
+//       "Developed backend systems with Java and Spring Boot. Improved MySQL database performance, implemented Jenkins pipelines, and contributed to REST API design.",
+//     icon: "/assets/springboot.svg",
+//     animation: "clapping"
+//   }
+// ];
+
+export const educationData = [
+  {
+    id: 1,
+    school: "City University of Seattle",
+    degree: "Master’s in Computer Science",
+    duration: "2022 – 2024",
+    desc: "Specialized in software engineering, cloud technologies, and AI. Completed hands-on projects in full stack development and system design.",
+    icon: "/assets/education.svg",
+    animation: "salute"
+  },
+  {
+    id: 2,
+    school: "Northern Illinois University",
+    degree: "Bachelor’s in Computer Science (Software Development)",
+    duration: "2016 – 2020",
+    desc: "Focused on algorithms, software architecture, and application development. Built academic projects using Java, Spring, and MySQL.",
+    icon: "/assets/education.svg",
+    animation: "waving"
+  },
+  {
+    id: 3,
+    school: "Harper College",
+    degree: "Associate's in Computer Science",
+    duration: "2015 – 2018",
+    desc: "Built a strong foundation in programming, algorithms, and object-oriented design. Completed hands-on coursework in Java, data structures, and web development, preparing for a transition into advanced software engineering studies.",
+    icon: "/assets/education.svg",
+    animation: "waving"
+  },
+  {
+    id: 4,
+    school: "Gujarat Technological University",
+    degree: "Diploma in Electronics and Communication Engineering",
+    duration: "2009 – 2013",
+    desc: "Studied core electronics, signal processing, and embedded systems. Gained early exposure to digital systems and engineering logic, forming the technical base for a career in computer science and software development.",
+    icon: "/assets/education.svg",
+    animation: "waving"
+  }
+];
+
+export const certificationsData = [
+  {
+    id: 1,
+    name: "Generative AI Specialization",
+    org: "Purdue University",
+    date: "March 2025",
+    icon: "/assets/ai.svg"
+  },
+  {
+    id: 2,
+    name: "AWS AI Practitioner",
+    org: "Amazon",
+    date: "January 2025",
+    icon: "/assets/aws.svg"
+  },
+  {
+    id: 3,
+    name: "AWS Cloud Practitioner",
+    org: "Amazon",
+    date: "March 2023",
+    icon: "/assets/aws.svg"
+  },
+  {
+    id: 4,
+    name: "Full Stack Web Dev Bootcamp",
+    org: "University of Illinois at Chicago (UIC)",
+    date: "May 2022",
+    icon: "/assets/uic.svg"
+  },
+  {
+    id: 5,
+    name: "Full Stack Java Developer Bootcamp",
+    org: "SimpliLearn",
+    date: "August 2020",
+    icon: "/assets/java.svg"
   }
 ];
