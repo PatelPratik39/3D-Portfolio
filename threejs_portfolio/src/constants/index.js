@@ -272,7 +272,7 @@ export const myProjects = [
       border: "0.2px solid #2E3C5C",
       boxShadow: "0px 0px 60px 0px #00D8FF33"
     },
-    spotlight: "/assets/spotlight6.png",
+    spotlight: "/assets/spotlight4.png",
     tags: [
       { id: 1, name: "NextJS", path: "/assets/nextjs.svg" },
       { id: 2, name: "TypeScript", path: "/assets/typescript.png" },
@@ -295,7 +295,7 @@ export const myProjects = [
       border: "0.2px solid #333",
       boxShadow: "0px 0px 60px 0px #44FF4433"
     },
-    spotlight: "/assets/spotlight7.png",
+    spotlight: "/assets/spotlight5.png",
     tags: [
       { id: 1, name: "React", path: "/assets/react.svg" },
       { id: 2, name: "MongoDB", path: "/assets/mongodb.png" },
